@@ -29,7 +29,7 @@ botonAtras.addEventListener('click', function(){
     cambiarImagen()
 })
 
-// Función para cambiar la imagen
+// Función para cambiar la imazzzgen
 
 function cambiarImagen(){
     cambioImagen.src = imagenes[contador];
