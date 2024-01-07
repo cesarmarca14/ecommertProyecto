@@ -126,13 +126,21 @@ body{
         
       width: 100%;
       height: 18%;
-      background-color: rgba(82, 8, 101, 0.559);
+      background-color: rgba(82, 8, 101, 0.594);
       margin-left: 0px;
-      transition: 0.8s;
+      transition: 0.9s;
+      transform: none;
     }
   
+
+    /* .nav-menu-item:hover{
+        font-weight: bold;
+        transition: 0.5s;
+        transform: scale(1.6, 1.6);
+        
+    } */
     .nav-menu-item{
-        font-size: 25px;
+        font-size: 20px;
         line-height: 100px;
         
     }
