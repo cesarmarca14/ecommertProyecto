@@ -16,6 +16,7 @@
     height: 780px;
 }
 .botones{
+    /* border: solid red; */
     border: solid rgba(102, 51, 153, 0.304);
     font-size: 30px;
     width: 50px;
