@@ -2,12 +2,10 @@
 .productos_mein {
     /* border: solid red; */
     display: flex;
-    width: 1600px;
-    height:630px;
+    /* width: 1600px; */
+    height:530px;
   }
   .productos_mein img {
-      /* border: solid red; */
-    /* width: 1600px; */
     width: 0px;
     flex-grow: 1;
     opacity: .8;
@@ -22,3 +20,14 @@
       filter: contrast(120%);
   }
   
+  /* -----------marcas-------  */
+  .marcas {
+    padding: 45px;
+    /* border: solid red; */
+    display: flex;
+    justify-content: space-around;
+  }
+  .marcas img{
+    height: 38px;
+  }
+  /* -----------fin de marcas-------  */
