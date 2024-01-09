@@ -40,3 +40,72 @@
     text-align: justify;
 
 } 
+
+/* ----------testimonios texto------  */
+
+.texto-container-tex2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+}
+.texto-container-tex2 div{
+    width: 900px;
+}
+.texto-container-tex2 h2{
+    color:#5a0a0a;
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.texto-container-tex2 h3{
+   margin-top: 30px;
+   line-height: 25px;
+   color: rgb(14, 103, 103);
+   font-weight: 800;
+}
+
+/* ----------card--------  */
+
+
+.card-main{
+    /* border: solid rgb(8, 23, 156); */
+    display: flex;
+    align-items: center;
+    height: 500px;
+    color: white;
+}
+.card-main div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    width: 280px;
+    height: 400px;
+    background-color: rgb(252, 60, 43);
+    border-radius: 30px;
+}
+.card-main div h2{
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.card-main div h4{
+    color: rgba(255, 255, 255, 0.607);
+    font-size: 14px;
+}
+.card-main div h3{
+    text-align:center;
+    font-size: 17px;
+    line-height: 25px;
+}
+.card-main div img {
+    border-radius: 50%;
+    width: 60px;
+    margin-top: 20px;
+}
+.card-main figure img{
+    width: 90px;
+    border-radius: 8px;
+    border: solid white;
+}
+

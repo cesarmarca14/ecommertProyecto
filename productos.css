@@ -1,3 +1,38 @@
+/* -------texto-sobre---imagenes-----  */
+.productos_mein h2, button{
+  position: absolute;
+  z-index: 4;
+  margin-left: 90px;
+
+}
+.productos_mein h2{
+  /* border: solid; */
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: 800;
+}
+.productos_mein button{
+  width: 130px;
+  height: 40px;
+  background: rgba(137, 43, 226, 0.655);
+ border: solid none;
+  border-radius: 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+ 
+}
+.productos_mein div{
+  text-align: center;
+  border: solid rgba(0, 247, 218, 0.966);
+  display: flex;
+  align-items: end;
+  
+
+margin-bottom: 50px;
+}
+
+ /* --finnn-----texto-sobre---imagenes--  */
 
 .productos_mein {
     /* border: solid red; */
